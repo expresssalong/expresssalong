@@ -189,13 +189,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  padding: 0px 20px 0 20px;
+  padding: 0px 150px 0 150px;
   color: #eee;
   margin-bottom: 50px;
   font-size: 22px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
+  #hero h2 {
+    padding: 0px 50px 0 50px;
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 950px) {
+  #hero h2 {
+    padding: 0px 20px 0 20px;
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 800px) {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
@@ -886,8 +904,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
-  padding: 80px 0 40px 0;
+  background: #949494;
+  background-size: cover;
+  padding: 80px 0 100px 0;
 }
 
 #contact #google-map {
