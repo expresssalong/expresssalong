@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 30px 0 10px 0;
-  font-size: 48px;
+  margin: 30px 0 5px 0;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -183,15 +183,16 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 36px;
   }
 }
 
 #hero h2 {
+  padding: 0px 20px 0 20px;
   color: #eee;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 @media (max-width: 768px) {
@@ -602,11 +603,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  padding: 50px 20px;
+  padding: 50px 10px;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 200px;
+  height: 100x;
   position: relative;
   background: #fafafa;
 }
@@ -666,10 +668,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/puud.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -852,6 +855,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+
+/* About Me Section
+--------------------------------*/
+#aboutme {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#aboutme .title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#aboutme .description {
+  color: #111;
+  margin-top: 20;
+  margin-bottom: 50px;
+  text-align: right;
+  border: 1px solid #ccc;
+  position: absolute;
 }
 
 /* Contact Section
