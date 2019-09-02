@@ -629,11 +629,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box {
   padding: 50px 10px;
-  margin-top: 50px;
+  margin-top: 85px;
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 100x;
+  height: 50x;
   position: relative;
   background: #fafafa;
   color: #999;
@@ -819,8 +819,6 @@ padding: 0 0 20px 0;
   line-height: 22px;
   font-size: 14px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Footer
