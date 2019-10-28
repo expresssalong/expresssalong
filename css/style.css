@@ -660,6 +660,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #5dcff1;
 }
 
+
+
 #services .icon a {
   display: inline-block;
 }
@@ -800,8 +802,8 @@ padding: 0 0 20px 0;
 #aboutme p {
   color: rgb(255, 255, 255);
   margin-left: 0px;
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 16px;
+  font-size: 17px;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
